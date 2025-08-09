@@ -29,9 +29,10 @@ fn main() {
 
     for _ in 0..n {
         let next = &a + &b;
-        println!("{}", a);
 
         a = b;
         b = next;
     }
+
+    println!("{}", a);
 }
