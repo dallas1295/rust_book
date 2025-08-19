@@ -6,7 +6,7 @@ use std::time::Duration;
 
 fn main() {
     // let's take a users input into consideration and generate the fibonacci numbers to the nth
-    // value give from the users.
+    // value given from the users.
 
     println!("Welcome to the fibonacci number counter!");
     println!("Please input to what nth you'd like to generate until.");
